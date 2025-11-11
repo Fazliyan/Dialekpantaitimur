@@ -150,7 +150,7 @@ export function LearningModule({ state, onBack, onComplete }: LearningModuleProp
             <div>
               <label className="text-sm text-gray-600 mb-2 block">Dialek {config.name}</label>
               <div className="flex items-center gap-4">
-                <h2 className={`text-5xl bg-gradient-to-r ${config.color} bg-clip-text text-transparent`}>
+                <h2 className={`text-5xl py-2 leading-normal bg-gradient-to-r ${config.color} bg-clip-text text-transparent`}>
                   {currentPhrase.dialect}
                 </h2>
                 <Button
@@ -237,7 +237,7 @@ export function LearningModule({ state, onBack, onComplete }: LearningModuleProp
                 `}
               >
                 <div className="flex items-start justify-between mb-2">
-                  <span className={`bg-gradient-to-r ${config.color} bg-clip-text text-transparent`}>
+                  <span className={`py-1 leading-normal bg-gradient-to-r ${config.color} bg-clip-text text-transparent`}>
                     {phrase.dialect}
                   </span>
                   {completedPhrases.has(phrase.id) && (
