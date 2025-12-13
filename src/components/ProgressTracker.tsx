@@ -137,7 +137,7 @@ export function ProgressTracker({ onBack, userProgress }: ProgressTrackerProps) 
           </Card>
           <Card className="p-6 bg-gradient-to-br from-red-50 to-orange-100 border-red-200">
             <Flame className="w-10 h-10 mb-3 text-red-600" />
-            <p className="text-sm text-gray-600 mb-1">Kemarau</p>
+            <p className="text-sm text-gray-600 mb-1">Api</p>
             <p className="text-3xl">{streak} hari</p>
           </Card>
         </div>

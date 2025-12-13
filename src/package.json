@@ -1,0 +1,25 @@
+{
+  "name": "aplikasi-dialek-pantai-timur",
+  "version": "1.0.0",
+  "description": "Aplikasi pembelajaran dialek Kelantan, Terengganu & Pahang",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy:vercel": "vercel --prod",
+    "deploy:netlify": "netlify deploy --prod"
+  },
+  "keywords": [
+    "dialek",
+    "bahasa melayu",
+    "pantai timur",
+    "kelantan",
+    "terengganu",
+    "pahang",
+    "education",
+    "pwa"
+  ],
+  "author": "",
+  "license": "MIT"
+}

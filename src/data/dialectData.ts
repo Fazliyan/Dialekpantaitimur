@@ -61,28 +61,10 @@ export const kelantanPhrases: Phrase[] = [
     example: "Pitih demo cukup ke? - Duit awak cukup ke?",
     audioUrl: "",
   },
-  {
-    id: "k4",
-    dialect: "poh",
-    standard: "pelam (mangga)",
-    pronunciation: "poh",
-    category: "Kata Nama",
-    example: "Poh ni manih - Mangga ini manis",
-    audioUrl: "",
-  },
-  {
-    id: "k5",
-    dialect: "pitoq",
-    standard: "tidur",
-    pronunciation: "pi-toq",
-    category: "Kata Nama",
-    example: "Nok gi pitoq - Mahu pergi tidur",
-    audioUrl: "",
-  },
   
   // KATA KERJA
   {
-    id: "k6",
+    id: "k4",
     dialect: "gi",
     standard: "pergi",
     pronunciation: "gi",
@@ -91,7 +73,7 @@ export const kelantanPhrases: Phrase[] = [
     audioUrl: "",
   },
   {
-    id: "k7",
+    id: "k5",
     dialect: "tubik",
     standard: "keluar",
     pronunciation: "tu-bik",
@@ -99,19 +81,10 @@ export const kelantanPhrases: Phrase[] = [
     example: "Demo tubik rumoh - Awak keluar rumah",
     audioUrl: "",
   },
-  {
-    id: "k8",
-    dialect: "pitoih",
-    standard: "putus",
-    pronunciation: "pi-toih",
-    category: "Kata Kerja",
-    example: "Tali ni pitoih - Tali ini putus",
-    audioUrl: "",
-  },
   
   // KATA ADJEKTIF
   {
-    id: "k9",
+    id: "k6",
     dialect: "pahik",
     standard: "pahit",
     pronunciation: "pa-hik",
@@ -120,7 +93,7 @@ export const kelantanPhrases: Phrase[] = [
     audioUrl: "",
   },
   {
-    id: "k10",
+    id: "k7",
     dialect: "bereh",
     standard: "siap/habis",
     pronunciation: "be-reh",
@@ -131,7 +104,7 @@ export const kelantanPhrases: Phrase[] = [
   
   // KATA TUGAS
   {
-    id: "k11",
+    id: "k8",
     dialect: "hok",
     standard: "yang",
     pronunciation: "hok",
@@ -140,7 +113,7 @@ export const kelantanPhrases: Phrase[] = [
     audioUrl: "",
   },
   {
-    id: "k12",
+    id: "k9",
     dialect: "bakpo",
     standard: "kenapa",
     pronunciation: "bak-po",
@@ -149,7 +122,7 @@ export const kelantanPhrases: Phrase[] = [
     audioUrl: "",
   },
   {
-    id: "k13",
+    id: "k10",
     dialect: "mano",
     standard: "mana",
     pronunciation: "ma-no",
@@ -158,7 +131,7 @@ export const kelantanPhrases: Phrase[] = [
     audioUrl: "",
   },
   {
-    id: "k14",
+    id: "k11",
     dialect: "gak",
     standard: "juga",
     pronunciation: "gak",
@@ -167,7 +140,7 @@ export const kelantanPhrases: Phrase[] = [
     audioUrl: "",
   },
   {
-    id: "k15",
+    id: "k12",
     dialect: "tokleh",
     standard: "tidak boleh",
     pronunciation: "tok-leh",
@@ -219,28 +192,10 @@ export const terengganuPhrases: Phrase[] = [
     example: "Tikuh ni banyok - Tikus ini banyak",
     audioUrl: "",
   },
-  {
-    id: "t5",
-    dialect: "bantal",
-    standard: "bantal",
-    pronunciation: "ban-tal",
-    category: "Kata Nama",
-    example: "Bantal ni lembut - Bantal ini lembut",
-    audioUrl: "",
-  },
-  {
-    id: "t6",
-    dialect: "kapal",
-    standard: "kapal",
-    pronunciation: "ka-pal",
-    category: "Kata Nama",
-    example: "Kapal tu besar - Kapal itu besar",
-    audioUrl: "",
-  },
   
   // KATA KERJA
   {
-    id: "t7",
+    id: "t5",
     dialect: "gi",
     standard: "pergi",
     pronunciation: "gi",
@@ -249,7 +204,7 @@ export const terengganuPhrases: Phrase[] = [
     audioUrl: "",
   },
   {
-    id: "t8",
+    id: "t6",
     dialect: "tubik",
     standard: "keluar",
     pronunciation: "tu-bik",
@@ -258,7 +213,7 @@ export const terengganuPhrases: Phrase[] = [
     audioUrl: "",
   },
   {
-    id: "t9",
+    id: "t7",
     dialect: "kupah",
     standard: "kupas",
     pronunciation: "ku-pah",
@@ -266,19 +221,10 @@ export const terengganuPhrases: Phrase[] = [
     example: "Kupah kelapa ni - Kupas kelapa ini",
     audioUrl: "",
   },
-  {
-    id: "t10",
-    dialect: "puko",
-    standard: "pukul",
-    pronunciation: "pu-ko",
-    category: "Kata Kerja",
-    example: "Puko pukul tiga - Pukul tiga",
-    audioUrl: "",
-  },
   
   // KATA ADJEKTIF
   {
-    id: "t11",
+    id: "t8",
     dialect: "mAneh",
     standard: "manis",
     pronunciation: "ma-neh",
@@ -287,7 +233,7 @@ export const terengganuPhrases: Phrase[] = [
     audioUrl: "",
   },
   {
-    id: "t12",
+    id: "t9",
     dialect: "mAlAh",
     standard: "malas",
     pronunciation: "ma-lah",
@@ -295,28 +241,10 @@ export const terengganuPhrases: Phrase[] = [
     example: "Budok ni mAlAh - Budak ini malas",
     audioUrl: "",
   },
-  {
-    id: "t13",
-    dialect: "mAsAN",
-    standard: "masam",
-    pronunciation: "ma-san",
-    category: "Kata Adjektif",
-    example: "Buoh ni mAsAN - Buah ini masam",
-    audioUrl: "",
-  },
-  {
-    id: "t14",
-    dialect: "pAhAjt",
-    standard: "pahit",
-    pronunciation: "pa-hajt",
-    category: "Kata Adjektif",
-    example: "Kopi ni pAhAjt - Kopi ini pahit",
-    audioUrl: "",
-  },
   
   // KATA TUGAS
   {
-    id: "t15",
+    id: "t10",
     dialect: "hok",
     standard: "yang",
     pronunciation: "hok",
@@ -325,7 +253,7 @@ export const terengganuPhrases: Phrase[] = [
     audioUrl: "",
   },
   {
-    id: "t16",
+    id: "t11",
     dialect: "bakpe",
     standard: "kenapa",
     pronunciation: "bak-pe",
@@ -334,7 +262,7 @@ export const terengganuPhrases: Phrase[] = [
     audioUrl: "",
   },
   {
-    id: "t17",
+    id: "t12",
     dialect: "gok",
     standard: "juga",
     pronunciation: "gok",
@@ -343,7 +271,7 @@ export const terengganuPhrases: Phrase[] = [
     audioUrl: "",
   },
   {
-    id: "t18",
+    id: "t13",
     dialect: "dok",
     standard: "tidak",
     pronunciation: "dok",
@@ -547,22 +475,6 @@ export const kelantanQuiz: QuizQuestion[] = [
   },
   {
     id: "kq4",
-    question: "Apakah maksud 'poh' dalam dialek Kelantan?",
-    options: ["Jambu", "Pelam (Mangga)", "Betik", "Pisang"],
-    correctAnswer: 1,
-    explanation: "'Poh' bermaksud 'Pelam' atau 'Mangga' dalam dialek Kelantan.",
-    state: "Kelantan",
-  },
-  {
-    id: "kq5",
-    question: "Apakah maksud 'pitoq' dalam dialek Kelantan?",
-    options: ["Makan", "Tidur", "Bangun", "Duduk"],
-    correctAnswer: 1,
-    explanation: "'Pitoq' bermaksud 'Tidur' dalam dialek Kelantan.",
-    state: "Kelantan",
-  },
-  {
-    id: "kq6",
     question: "Apakah maksud 'gi' dalam dialek Kelantan?",
     options: ["Datang", "Pergi", "Balik", "Keluar"],
     correctAnswer: 1,
@@ -570,7 +482,7 @@ export const kelantanQuiz: QuizQuestion[] = [
     state: "Kelantan",
   },
   {
-    id: "kq7",
+    id: "kq5",
     question: "Apakah maksud 'tubik' dalam dialek Kelantan?",
     options: ["Masuk", "Keluar", "Naik", "Turun"],
     correctAnswer: 1,
@@ -578,15 +490,7 @@ export const kelantanQuiz: QuizQuestion[] = [
     state: "Kelantan",
   },
   {
-    id: "kq8",
-    question: "Apakah maksud 'pitoih' dalam dialek Kelantan?",
-    options: ["Patah", "Putus", "Pecah", "Rosak"],
-    correctAnswer: 1,
-    explanation: "'Pitoih' bermaksud 'Putus' dalam dialek Kelantan.",
-    state: "Kelantan",
-  },
-  {
-    id: "kq9",
+    id: "kq6",
     question: "Apakah maksud 'pahik' dalam dialek Kelantan?",
     options: ["Manis", "Masam", "Pahit", "Pedas"],
     correctAnswer: 2,
@@ -594,7 +498,7 @@ export const kelantanQuiz: QuizQuestion[] = [
     state: "Kelantan",
   },
   {
-    id: "kq10",
+    id: "kq7",
     question: "Apakah maksud 'bereh' dalam dialek Kelantan?",
     options: ["Belum", "Siap/Habis", "Sedang", "Akan"],
     correctAnswer: 1,
@@ -602,7 +506,7 @@ export const kelantanQuiz: QuizQuestion[] = [
     state: "Kelantan",
   },
   {
-    id: "kq11",
+    id: "kq8",
     question: "Apakah maksud 'hok' dalam dialek Kelantan?",
     options: ["Ini", "Itu", "Yang", "Dengan"],
     correctAnswer: 2,
@@ -610,7 +514,7 @@ export const kelantanQuiz: QuizQuestion[] = [
     state: "Kelantan",
   },
   {
-    id: "kq12",
+    id: "kq9",
     question: "Apakah maksud 'bakpo' dalam dialek Kelantan?",
     options: ["Apa", "Kenapa", "Bila", "Mana"],
     correctAnswer: 1,
@@ -618,7 +522,7 @@ export const kelantanQuiz: QuizQuestion[] = [
     state: "Kelantan",
   },
   {
-    id: "kq13",
+    id: "kq10",
     question: "Apakah maksud 'mano' dalam dialek Kelantan?",
     options: ["Apa", "Bila", "Mana", "Siapa"],
     correctAnswer: 2,
@@ -626,7 +530,7 @@ export const kelantanQuiz: QuizQuestion[] = [
     state: "Kelantan",
   },
   {
-    id: "kq14",
+    id: "kq11",
     question: "Apakah maksud 'gak' dalam dialek Kelantan?",
     options: ["Sahaja", "Juga", "Pun", "Lagi"],
     correctAnswer: 1,
@@ -634,7 +538,7 @@ export const kelantanQuiz: QuizQuestion[] = [
     state: "Kelantan",
   },
   {
-    id: "kq15",
+    id: "kq12",
     question: "Apakah maksud 'tokleh' dalam dialek Kelantan?",
     options: ["Boleh", "Tidak boleh", "Mungkin boleh", "Mesti boleh"],
     correctAnswer: 1,
@@ -706,14 +610,6 @@ export const terengganuQuiz: QuizQuestion[] = [
   },
   {
     id: "tq8",
-    question: "Apakah maksud 'puko' dalam dialek Terengganu?",
-    options: ["Waktu", "Pukul", "Ketuk", "Semua di atas"],
-    correctAnswer: 3,
-    explanation: "'Puko' boleh bermaksud 'Pukul' (waktu atau tindakan) dalam dialek Terengganu.",
-    state: "Terengganu",
-  },
-  {
-    id: "tq9",
     question: "Apakah maksud 'mAneh' dalam dialek Terengganu?",
     options: ["Manis", "Masam", "Pahit", "Pedas"],
     correctAnswer: 0,
@@ -721,7 +617,7 @@ export const terengganuQuiz: QuizQuestion[] = [
     state: "Terengganu",
   },
   {
-    id: "tq10",
+    id: "tq9",
     question: "Apakah maksud 'mAlAh' dalam dialek Terengganu?",
     options: ["Rajin", "Malas", "Cepat", "Lambat"],
     correctAnswer: 1,
@@ -729,23 +625,7 @@ export const terengganuQuiz: QuizQuestion[] = [
     state: "Terengganu",
   },
   {
-    id: "tq11",
-    question: "Apakah maksud 'mAsAN' dalam dialek Terengganu?",
-    options: ["Manis", "Masam", "Pahit", "Tawar"],
-    correctAnswer: 1,
-    explanation: "'mAsAN' bermaksud 'Masam' dalam dialek Terengganu.",
-    state: "Terengganu",
-  },
-  {
-    id: "tq12",
-    question: "Apakah maksud 'pAhAjt' dalam dialek Terengganu?",
-    options: ["Manis", "Masam", "Pahit", "Pedas"],
-    correctAnswer: 2,
-    explanation: "'pAhAjt' bermaksud 'Pahit' dalam dialek Terengganu.",
-    state: "Terengganu",
-  },
-  {
-    id: "tq13",
+    id: "tq10",
     question: "Apakah maksud 'hok' dalam dialek Terengganu?",
     options: ["Ini", "Itu", "Yang", "Dengan"],
     correctAnswer: 2,
@@ -753,7 +633,7 @@ export const terengganuQuiz: QuizQuestion[] = [
     state: "Terengganu",
   },
   {
-    id: "tq14",
+    id: "tq11",
     question: "Apakah maksud 'bakpe' dalam dialek Terengganu?",
     options: ["Apa", "Kenapa", "Bila", "Mana"],
     correctAnswer: 1,
@@ -761,7 +641,7 @@ export const terengganuQuiz: QuizQuestion[] = [
     state: "Terengganu",
   },
   {
-    id: "tq15",
+    id: "tq12",
     question: "Apakah maksud 'gok' dalam dialek Terengganu?",
     options: ["Sahaja", "Juga", "Pun", "Lagi"],
     correctAnswer: 1,
@@ -769,7 +649,7 @@ export const terengganuQuiz: QuizQuestion[] = [
     state: "Terengganu",
   },
   {
-    id: "tq16",
+    id: "tq13",
     question: "Apakah maksud 'dok' dalam dialek Terengganu?",
     options: ["Ya", "Tidak", "Mungkin", "Sudah"],
     correctAnswer: 1,
@@ -992,10 +872,10 @@ export const mixedQuiz: QuizQuestion[] = [
   },
   {
     id: "mq9",
-    question: "Dialek negeri mana yang menggunakan 'mAneh', 'mAlAh', 'mAsAN' untuk sifat rasa dan perilaku?",
+    question: "Dialek negeri mana yang menggunakan 'mAneh' dan 'mAlAh' untuk kata adjektif?",
     options: ["Kelantan", "Terengganu", "Pahang", "Kedah"],
     correctAnswer: 1,
-    explanation: "Terengganu menggunakan pola 'mA_A_' untuk kata adjektif seperti mAneh (manis), mAlAh (malas), mAsAN (masam).",
+    explanation: "Terengganu menggunakan pola 'mA_A_' untuk kata adjektif seperti mAneh (manis) dan mAlAh (malas).",
     state: "Campuran",
   },
   {
@@ -1032,10 +912,10 @@ export const mixedQuiz: QuizQuestion[] = [
   },
   {
     id: "mq14",
-    question: "Kata adjektif untuk 'pahit' berbeza dalam setiap dialek. Yang manakah BETUL?",
-    options: ["Kelantan: pahik, Terengganu: pAhAjt", "Kelantan: pAhAjt, Terengganu: pahik", "Kedua-duanya guna 'pahit'", "Kedua-duanya guna 'pahik'"],
-    correctAnswer: 0,
-    explanation: "Kelantan: 'pahik', Terengganu: 'pAhAjt' - kedua-duanya bermaksud 'Pahit'.",
+    question: "Kata adjektif untuk 'pahit' dalam dialek Kelantan ialah?",
+    options: ["pahit", "pahik", "pait", "paik"],
+    correctAnswer: 1,
+    explanation: "Kelantan menggunakan 'pahik' untuk bermaksud 'Pahit'.",
     state: "Campuran",
   },
   {

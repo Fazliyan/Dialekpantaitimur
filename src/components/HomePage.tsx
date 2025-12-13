@@ -3,6 +3,10 @@ import { Button } from "./ui/button";
 import { Badge } from "./ui/badge";
 import { BookOpen, Volume2, Trophy, BarChart3, Settings } from "lucide-react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
+import kelantanFlag from "figma:asset/f46fd98e2565072e8e84ed190c6e1e1d626bedb2.png";
+import terengganuFlag from "figma:asset/2b4e546fc2f7463101c197b8f3fdcb80a2457fc4.png";
+import pahangFlag from "figma:asset/e29376e7151af0cbbfe7a2b815b0ecc8a7a995de.png";
+import headerBg from "figma:asset/1927329307edc18629f375e6d3469fd7d179d781.png";
 
 interface HomePageProps {
   onNavigate: (page: string) => void;
@@ -23,6 +27,7 @@ export function HomePage({ onNavigate, userProgress }: HomePageProps) {
       color: "from-red-500 to-red-600",
       bgColor: "bg-red-50",
       borderColor: "border-red-200",
+      flagImage: kelantanFlag,
       progress: userProgress.kelantan,
     },
     {
@@ -32,6 +37,7 @@ export function HomePage({ onNavigate, userProgress }: HomePageProps) {
       color: "from-blue-500 to-blue-600",
       bgColor: "bg-blue-50",
       borderColor: "border-blue-200",
+      flagImage: terengganuFlag,
       progress: userProgress.terengganu,
     },
     {
@@ -41,17 +47,18 @@ export function HomePage({ onNavigate, userProgress }: HomePageProps) {
       color: "from-green-500 to-green-600",
       bgColor: "bg-green-50",
       borderColor: "border-green-200",
+      flagImage: pahangFlag,
       progress: userProgress.pahang,
     },
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-amber-50 via-orange-50 to-yellow-50">
+    <div className="min-h-screen bg-gradient-to-br from-teal-50 via-cyan-50 to-blue-50">
       {/* Header */}
       <div className="relative overflow-hidden bg-gradient-to-r from-orange-600 via-red-600 to-pink-600 text-white">
         <div className="absolute inset-0 opacity-20">
           <ImageWithFallback
-            src="https://images.unsplash.com/photo-1709140006371-14d5b259b5de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0cmFkaXRpb25hbCUyME1hbGF5JTIwYmF0aWt8ZW58MXx8fHwxNzYxMjE3NzQzfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+            src={headerBg}
             alt="Background"
             className="w-full h-full object-cover"
           />
@@ -129,10 +136,10 @@ export function HomePage({ onNavigate, userProgress }: HomePageProps) {
                 className={`overflow-hidden border-2 ${state.borderColor} hover:shadow-xl transition-all duration-300 hover:-translate-y-1`}
               >
                 <div className={`h-32 bg-gradient-to-br ${state.color} relative overflow-hidden`}>
-                  <div className="absolute inset-0 opacity-30">
+                  <div className="absolute inset-0 opacity-60">
                     <ImageWithFallback
-                      src="https://images.unsplash.com/photo-1643764819085-2261b3e81b53?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxNYWxheXNpYW4lMjBlYXN0JTIwY29hc3R8ZW58MXx8fHwxNzYxMjE3NzQzfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-                      alt={state.name}
+                      src={state.flagImage}
+                      alt={`Bendera ${state.name}`}
                       className="w-full h-full object-cover"
                     />
                   </div>
