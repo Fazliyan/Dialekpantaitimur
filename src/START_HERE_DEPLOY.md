@@ -13,6 +13,14 @@
 
 ---
 
+## 🗂️ Fail-fail apa yang penting?
+
+**Lihat senarai lengkap:** `SENARAI_FAIL_PENTING.md`
+
+**TL;DR:** Semua fail di `/components/`, `/data/`, `/public/` adalah penting. Jangan delete!
+
+---
+
 ## ⚡ QUICK DEPLOY (3 Minit!)
 
 ### Step 1: Check nama repo GitHub
@@ -52,12 +60,12 @@ Tab Actions → Tunggu build selesai (hijau)
 
 | Panduan | Untuk Apa |
 |---------|-----------|
-| **CHECKLIST_SEBELUM_DEPLOY.md** | ✅ Checklist lengkap sebelum deploy |
+| **SENARAI_FAIL_PENTING.md** | 📋 Senarai fail penting vs boleh delete |
 | **CARA_DEPLOY.md** | 🚀 Step-by-step deploy guide |
 | **QUICK_FIX_WHITE_SCREEN.md** | ⚡ Fix white screen 30 saat |
-| **TROUBLESHOOTING_WHITE_SCREEN.md** | 🔧 Debug white screen issues |
 | **PENJELASAN_CARA_REACT_BERFUNGSI.md** | 📖 Kenapa index.html "kosong" |
-| **README_DEPLOYMENT.md** | 📦 Overview deployment |
+| **PANDUAN_UPDATE_DATA.md** | ✏️ Cara edit perkataan & kuiz |
+| **README.md** | 📚 Main documentation |
 
 ---
 
