@@ -1,19 +1,53 @@
 # 🚀 Cara Deploy Aplikasi ke GitHub Pages (3 Langkah Mudah!)
 
-## Langkah 1️⃣: Edit Nama Repo
-Buka fail `/vite.config.ts` dan tukar ini:
+## ⚠️ PENTING - BACA DULU!
+
+Ada 2 cara deploy. Pilih salah satu:
+
+### 🥇 CARA 1: Deploy ke Root Domain (PALING MUDAH - RECOMMENDED!)
+- Rename repo kepada: `username.github.io` (contoh: `ahmad123.github.io`)
+- Website akan jadi: `https://username.github.io/`
+- ✅ **TAK PERLU SET BASE PATH** - Paling senang!
+
+### 🥈 CARA 2: Deploy ke Subdirectory
+- Repo boleh nama apa-apa (contoh: `dialek-app`)
+- Website akan jadi: `https://username.github.io/dialek-app/`
+- ⚠️ **MESTI SET BASE PATH** yang betul di `vite.config.ts`
+
+**Saya recommend CARA 1** kerana lebih mudah dan kurang error!
+
+---
+
+## 🥇 CARA 1: Deploy ke username.github.io (RECOMMENDED)
+
+### Langkah 1: Rename Repo
+
+1. Pergi ke repo GitHub anda
+2. Klik **Settings** (tab atas kanan)
+3. Scroll ke **Repository name**
+4. Tukar nama kepada: `username.github.io`
+   - Ganti `username` dengan username GitHub anda
+   - Contoh: Jika username `ahmad123`, nama repo jadi `ahmad123.github.io`
+5. Klik **Rename**
+
+### Langkah 2: Edit vite.config.ts
+
+Buka fail `/vite.config.ts` dan pastikan `base` adalah `/`:
+
 ```typescript
-base: process.env.GITHUB_PAGES === 'true' ? '/aplikasi-dialek-pantai-timur/' : '/',
+export default defineConfig({
+  plugins: [react()],
+  base: '/',  // ← Pastikan ini '/' sahaja
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+    sourcemap: false,
+  },
+});
 ```
 
-Gantikan `aplikasi-dialek-pantai-timur` dengan nama repo GitHub anda.
+### Langkah 3: Buat Icon App (OPTIONAL tetapi recommended)
 
-Contoh: Kalau repo anda bernama `dialek-app`, tukar jadi:
-```typescript
-base: process.env.GITHUB_PAGES === 'true' ? '/dialek-app/' : '/',
-```
-
-## Langkah 2️⃣: Buat Icon App
 1. Pergi ke https://www.canva.com atau https://www.photopea.com
 2. Buat design 512x512 pixels dengan logo app anda
 3. Export sebagai PNG:
@@ -23,23 +57,23 @@ base: process.env.GITHUB_PAGES === 'true' ? '/dialek-app/' : '/',
 
 **PENTING:** Icon mesti PNG format dan saiz yang betul!
 
-## Langkah 3️⃣: Deploy!
+### Langkah 4: Deploy!
 
-### A. Enable GitHub Pages (Sekali sahaja):
+#### A. Enable GitHub Pages (Sekali sahaja):
 1. Pergi ke repo GitHub anda
 2. Klik **Settings** (atas kanan)
 3. Klik **Pages** (sebelah kiri)
 4. Di bahagian **Source**, pilih: **GitHub Actions**
 5. Klik **Save**
 
-### B. Push Code ke GitHub:
+#### B. Push Code ke GitHub:
 ```bash
 git add .
 git commit -m "Deploy PWA app"
 git push
 ```
 
-### C. Tunggu Deploy Selesai:
+#### C. Tunggu Deploy Selesai:
 1. Pergi ke tab **Actions** di repo GitHub
 2. Anda akan nampak workflow "Deploy to GitHub Pages" sedang running
 3. Tunggu 2-3 minit sehingga ada ✅ hijau
@@ -49,14 +83,81 @@ git push
 
 Website boleh diakses di:
 ```
-https://USERNAME.github.io/NAMA-REPO/
+https://USERNAME.github.io/
 ```
 
 Gantikan:
 - `USERNAME` dengan username GitHub anda
-- `NAMA-REPO` dengan nama repository anda
+
+Contoh: `https://ahmad123.github.io/`
+
+---
+
+## 🥈 CARA 2: Deploy ke Subdirectory (username.github.io/nama-repo/)
+
+**Gunakan cara ini jika:**
+- Anda tak nak rename repo
+- Dah ada website lain di `username.github.io`
+- Nak deploy multiple projects
+
+### Langkah 1: Pastikan Nama Repo
+
+Repo boleh nama apa-apa. Contoh:
+- `dialek-app`
+- `aplikasi-dialek-pantai-timur`
+- `east-coast-dialect`
+
+**INGAT nama repo ini - PENTING untuk langkah seterusnya!**
+
+### Langkah 2: Edit vite.config.ts
+
+Buka fail `/vite.config.ts` dan set `base` kepada nama repo anda:
+
+```typescript
+export default defineConfig({
+  plugins: [react()],
+  base: '/NAMA-REPO-ANDA/',  // ← MESTI sama dengan nama repo!
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+    sourcemap: false,
+  },
+});
+```
+
+**Contoh:** Jika repo bernama `dialek-app`:
+```typescript
+base: '/dialek-app/',
+```
+
+⚠️ **PENTING:**
+- Mesti ada slash `/` di depan dan belakang
+- Case sensitive (huruf besar kecil mesti sama)
+- Mesti EXACTLY sama dengan nama repo
+
+### Langkah 3: Enable GitHub Pages & Deploy
+
+Sama seperti CARA 1:
+
+1. **Settings** → **Pages** → **Source: GitHub Actions**
+2. Push code:
+   ```bash
+   git add .
+   git commit -m "Deploy to subdirectory"
+   git push
+   ```
+3. Tunggu deploy selesai (2-3 minit)
+
+### Website Siap!
+
+Website boleh diakses di:
+```
+https://USERNAME.github.io/NAMA-REPO/
+```
 
 Contoh: `https://ahmad123.github.io/dialek-app/`
+
+---
 
 ## 📱 Cara Install sebagai App di Phone:
 
