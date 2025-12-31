@@ -4,10 +4,8 @@ import react from '@vitejs/plugin-react';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  // Untuk GitHub Pages, base path MESTI sama dengan nama repo
-  // Contoh: jika repo bernama "dialek-app", tukar kepada '/dialek-app/'
-  // ATAU set kepada '/' jika deploy ke custom domain atau username.github.io (tanpa subdirectory)
-  base: '/',
+  // Disable public directory copying since it may not exist
+  publicDir: 'public',
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
