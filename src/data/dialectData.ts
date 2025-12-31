@@ -35,16 +35,7 @@ export interface QuizQuestion {
 // ============================================
 
 export const pahangPhrases: Phrase[] = [
-  {
-    id: "p1",
-    dialect: "ampoh",
-    standard: "tenggelam (berkenaan sesuatu yang ditenggelami air terutama ketika banjir)",
-    pronunciation: "am.poh",
-    category: "Kata Adjektif",
-    dialectSentence: "Abeh ampoh doh kebo Pak Mat keno boh.",
-    dialectSentenceIPA: "a.beh am.poh dɔh kə.bɔ paʔ maʔ kə.nɔ bɔh",
-    standardSentence: "Habis tenggelam kebun Pak Mat kena banjir.",
-  },
+  // 4 PERKATAAN TERATAS - DENGAN AUDIO
   {
     id: "p2",
     dialect: "are",
@@ -54,6 +45,7 @@ export const pahangPhrases: Phrase[] = [
     dialectSentence: "Are beno ari ni, tepijok taek lembu sampai tengoh jalan.",
     dialectSentenceIPA: "a.ye bə.nɔ a.yi ni tə.pi.dʒaʔ taeʔ ləm.bu sam.paj tə.ŋɔh dʒa.lan",
     standardSentence: "Malang benar hari ini, terpijak tahi lembu di tengah jalan.",
+    audioUrl: "/audio/pahang/are.mp3",
   },
   {
     id: "p3",
@@ -64,6 +56,41 @@ export const pahangPhrases: Phrase[] = [
     dialectSentence: "Jage baek-baek basika tu, ayah baru bela.",
     dialectSentenceIPA: "dʒa.gə baeʔ.baeʔ ba.si.ka tu a.jah ba.yu bə.la",
     standardSentence: "Jaga baik-baik basikal itu, ayah baru membaikinya.",
+    audioUrl: "/audio/pahang/bela.mp3",
+  },
+  {
+    id: "p16",
+    dialect: "getan",
+    standard: "geram",
+    pronunciation: "gə.tan",
+    category: "Kata Adjektif",
+    dialectSentence: "Getan man tengok budok tok.",
+    dialectSentenceIPA: "gə.tan man tɛ.ŋɔʔ bu.dɔʔ toʔ",
+    standardSentence: "Saya geram melihat budak itu.",
+    audioUrl: "/audio/pahang/getan.mp3",
+  },
+  {
+    id: "p18",
+    dialect: "hanya",
+    standard: "bersepah-sepah",
+    pronunciation: "ha.ɲa",
+    category: "Kata Adjektif",
+    dialectSentence: "Bilek tok nampok hanya.",
+    dialectSentenceIPA: "bi.leʔ toʔ nam.pɔʔ ha.ɲa",
+    standardSentence: "Bilik itu kelihatan sangat bersepah.",
+    audioUrl: "/audio/pahang/hanya.mp3",
+  },
+  
+  // 16 PERKATAAN LAIN - TANPA AUDIO (DISUSUN ABJAD)
+  {
+    id: "p1",
+    dialect: "ampoh",
+    standard: "tenggelam (berkenaan sesuatu yang ditenggelami air terutama ketika banjir)",
+    pronunciation: "am.poh",
+    category: "Kata Adjektif",
+    dialectSentence: "Abeh ampoh doh kebo Pak Mat keno boh.",
+    dialectSentenceIPA: "a.beh am.poh dɔh kə.bɔ paʔ maʔ kə.nɔ bɔh",
+    standardSentence: "Habis tenggelam kebun Pak Mat kena banjir.",
   },
   {
     id: "p4",
@@ -186,16 +213,6 @@ export const pahangPhrases: Phrase[] = [
     standardSentence: "Nasi belum masak.",
   },
   {
-    id: "p16",
-    dialect: "getan",
-    standard: "geram",
-    pronunciation: "gə.tan",
-    category: "Kata Adjektif",
-    dialectSentence: "Getan man tengok budok tok.",
-    dialectSentenceIPA: "gə.tan man tɛ.ŋɔʔ bu.dɔʔ toʔ",
-    standardSentence: "Saya geram melihat budak itu.",
-  },
-  {
     id: "p17",
     dialect: "gohek",
     standard: "mengayuh basikal",
@@ -204,16 +221,6 @@ export const pahangPhrases: Phrase[] = [
     dialectSentence: "Gohek cepat siket.",
     dialectSentenceIPA: "go.heʔ tʃə.pat si.ket",
     standardSentence: "Kayuh cepat sedikit.",
-  },
-  {
-    id: "p18",
-    dialect: "hanya",
-    standard: "bersepah-sepah",
-    pronunciation: "ha.ɲa",
-    category: "Kata Adjektif",
-    dialectSentence: "Bilek tok nampok hanya.",
-    dialectSentenceIPA: "bi.leʔ toʔ nam.pɔʔ ha.ɲa",
-    standardSentence: "Bilik itu kelihatan sangat bersepah.",
   },
   {
     id: "p19",
@@ -242,6 +249,53 @@ export const pahangPhrases: Phrase[] = [
 // ============================================
 
 export const terengganuPhrases: Phrase[] = [
+  // 4 PERKATAAN TERATAS - DENGAN AUDIO
+  {
+    id: "t2",
+    dialect: "akalang",
+    standard: "banyak kerenah, suka membuat ragam",
+    pronunciation: "a.ka.laŋ",
+    category: "Kata Adjektif",
+    dialectSentence: "Budok ni akalang sunggoh.",
+    dialectSentenceIPA: "bu.dɔʔ ni a.ka.laŋ suŋ.goh",
+    standardSentence: "Budak ini sangat banyak kerenah.",
+    audioUrl: "/audio/terengganu/akalang.mp3",
+  },
+  {
+    id: "t4",
+    dialect: "belebe",
+    standard: "membebel, berleter",
+    pronunciation: "bə.lɛ.bɛ",
+    category: "Kata Kerja",
+    dialectSentence: "Mung belebe sokmo.",
+    dialectSentenceIPA: "muŋ bə.lɛ.bɛ sɔʔ.mɔ",
+    standardSentence: "Kamu asyik membebel sahaja.",
+    audioUrl: "/audio/terengganu/belebe.mp3",
+  },
+  {
+    id: "t15",
+    dialect: "gateh",
+    standard: "mengayuh basikal",
+    pronunciation: "ga.teh",
+    category: "Kata Kerja",
+    dialectSentence: "Sidek gateh basika gi sekoloh.",
+    dialectSentenceIPA: "si.deʔ ga.teh ba.si.ka gi sə.kɔ.lɔh",
+    standardSentence: "Sidek mengayuh basikal ke sekolah.",
+    audioUrl: "/audio/terengganu/gateh.mp3",
+  },
+  {
+    id: "t17",
+    dialect: "geletak",
+    standard: "sangat ingin atau berhajat",
+    pronunciation: "gə.lə.tãʔ",
+    category: "Kata Adjektif",
+    dialectSentence: "Diye geletak nok gi bando.",
+    dialectSentenceIPA: "di.jə gə.lə.tãʔ nɔʔ gi ban.dɔ",
+    standardSentence: "Dia sangat ingin pergi ke bandar.",
+    audioUrl: "/audio/terengganu/geletak.mp3",
+  },
+  
+  // 16 PERKATAAN LAIN - TANPA AUDIO (DISUSUN ABJAD)
   {
     id: "t1",
     dialect: "acu",
@@ -253,16 +307,6 @@ export const terengganuPhrases: Phrase[] = [
     standardSentence: "Kamu pergi cuba baju itu dahulu, sama ada sesuai atau tidak.",
   },
   {
-    id: "t2",
-    dialect: "akalang",
-    standard: "banyak kerenah, suka membuat ragam",
-    pronunciation: "a.ka.laŋ",
-    category: "Kata Adjektif",
-    dialectSentence: "Budok ni akalang sunggoh.",
-    dialectSentenceIPA: "bu.dɔʔ ni a.ka.laŋ suŋ.goh",
-    standardSentence: "Budak ini sangat banyak kerenah.",
-  },
-  {
     id: "t3",
     dialect: "andeng",
     standard: "membuang atau melontar dengan kasar",
@@ -271,16 +315,6 @@ export const terengganuPhrases: Phrase[] = [
     dialectSentence: "Nye andeng abih kerusi meje ni.",
     dialectSentenceIPA: "ɲə an.deŋ a.bih kə.yu.si mɛ.dʒə ni",
     standardSentence: "Dia melontar habis kerusi meja ini.",
-  },
-  {
-    id: "t4",
-    dialect: "belebe",
-    standard: "membebel, berleter",
-    pronunciation: "bə.lɛ.bɛ",
-    category: "Kata Kerja",
-    dialectSentence: "Mung belebe sokmo.",
-    dialectSentenceIPA: "muŋ bə.lɛ.bɛ sɔʔ.mɔ",
-    standardSentence: "Kamu asyik membebel sahaja.",
   },
   {
     id: "t5",
@@ -383,16 +417,6 @@ export const terengganuPhrases: Phrase[] = [
     standardSentence: "Kereta itu terlalu kotor.",
   },
   {
-    id: "t15",
-    dialect: "gateh",
-    standard: "mengayuh basikal",
-    pronunciation: "ga.teh",
-    category: "Kata Kerja",
-    dialectSentence: "Sidek gateh basika gi sekoloh.",
-    dialectSentenceIPA: "si.deʔ ga.teh ba.si.ka gi sə.kɔ.lɔh",
-    standardSentence: "Sidek mengayuh basikal ke sekolah.",
-  },
-  {
     id: "t16",
     dialect: "gelabuk",
     standard: "menyibuk",
@@ -401,16 +425,6 @@ export const terengganuPhrases: Phrase[] = [
     dialectSentence: "Jangang gelabuk sini.",
     dialectSentenceIPA: "dʒa.naŋ gə.la.buʔ si.ni",
     standardSentence: "Jangan menyibuk di sini.",
-  },
-  {
-    id: "t17",
-    dialect: "geletak",
-    standard: "sangat ingin atau berhajat",
-    pronunciation: "gə.lə.tãʔ",
-    category: "Kata Adjektif",
-    dialectSentence: "Diye geletak nok gi bando.",
-    dialectSentenceIPA: "di.jə gə.lə.tãʔ nɔʔ gi ban.dɔ",
-    standardSentence: "Dia sangat ingin pergi ke bandar.",
   },
   {
     id: "t18",
@@ -449,6 +463,7 @@ export const terengganuPhrases: Phrase[] = [
 // ============================================
 
 export const kelantanPhrases: Phrase[] = [
+  // 4 PERKATAAN TERATAS - DENGAN AUDIO
   {
     id: "k1",
     dialect: "agah",
@@ -458,7 +473,43 @@ export const kelantanPhrases: Phrase[] = [
     dialectSentence: "Pok Ya agah bena.",
     dialectSentenceIPA: "pɔʔ ja a.gah bə.na",
     standardSentence: "Pak Ya sangat sombong.",
+    audioUrl: "/audio/kelantan/agah.mp3",
   },
+  {
+    id: "k17",
+    dialect: "gege",
+    standard: "bunyi bising",
+    pronunciation: "gɛ.gɛ",
+    category: "Kata Adjektif",
+    dialectSentence: "Jange dok gege.",
+    dialectSentenceIPA: "dʒa.ŋɛ dɔʔ gɛ.gɛ",
+    standardSentence: "Jangan buat bising.",
+    audioUrl: "/audio/kelantan/gege.mp3",
+  },
+  {
+    id: "k18",
+    dialect: "glenya",
+    standard: "gatal, suka bergaul bebas",
+    pronunciation: "glə.na",
+    category: "Kata Adjektif",
+    dialectSentence: "Mung ni jange dok glenya.",
+    dialectSentenceIPA: "muŋ ni dʒa.ŋɛ dɔʔ glə.na",
+    standardSentence: "Kamu jangan bersikap gatal.",
+    audioUrl: "/audio/kelantan/glenya.mp3",
+  },
+  {
+    id: "k19",
+    dialect: "gocoh",
+    standard: "menumbuk atau memukul",
+    pronunciation: "gɔ.tʃɔh",
+    category: "Kata Kerja",
+    dialectSentence: "Mae gocoh Mamak.",
+    dialectSentenceIPA: "ma.ɛ gɔ.tʃɔh ma.maʔ",
+    standardSentence: "Mail menumbuk Mamat.",
+    audioUrl: "/audio/kelantan/gocoh.mp3",
+  },
+  
+  // 16 PERKATAAN LAIN - TANPA AUDIO (DISUSUN ABJAD)
   {
     id: "k2",
     dialect: "age",
@@ -608,36 +659,6 @@ export const kelantanPhrases: Phrase[] = [
     dialectSentence: "Gayo adek mung tu.",
     dialectSentenceIPA: "ga.jɔ a.dɛʔ muŋ tu",
     standardSentence: "Pujuklah adik kamu itu.",
-  },
-  {
-    id: "k17",
-    dialect: "gege",
-    standard: "bunyi bising",
-    pronunciation: "gɛ.gɛ",
-    category: "Kata Adjektif",
-    dialectSentence: "Jange dok gege.",
-    dialectSentenceIPA: "dʒa.ŋɛ dɔʔ gɛ.gɛ",
-    standardSentence: "Jangan buat bising.",
-  },
-  {
-    id: "k18",
-    dialect: "glenya",
-    standard: "gatal, suka bergaul bebas",
-    pronunciation: "glə.na",
-    category: "Kata Adjektif",
-    dialectSentence: "Mung ni jange dok glenya.",
-    dialectSentenceIPA: "muŋ ni dʒa.ŋɛ dɔʔ glə.na",
-    standardSentence: "Kamu jangan bersikap gatal.",
-  },
-  {
-    id: "k19",
-    dialect: "gocoh",
-    standard: "menumbuk atau memukul",
-    pronunciation: "gɔ.tʃɔh",
-    category: "Kata Kerja",
-    dialectSentence: "Mae gocoh Mamak.",
-    dialectSentenceIPA: "ma.ɛ gɔ.tʃɔh ma.maʔ",
-    standardSentence: "Mail menumbuk Mamat.",
   },
   {
     id: "k20",
@@ -842,7 +863,7 @@ export const terengganuQuiz: QuizQuestion[] = [
   {
     id: "tq3",
     question: "Apakah maksud 'andeng' dalam dialek Terengganu?",
-    options: ["Meletakkan perlahan", "Melontar dengan kasar", "Menyusun rapi", "Mengangkat hati-hati"],
+    options: ["Mengambil dengan lembut", "Membuang/melontar dengan kasar", "Menyusun dengan kemas", "Menyimpan dengan baik"],
     correctAnswer: 1,
     explanation: "'Andeng' bermaksud 'membuang atau melontar dengan kasar' dalam dialek Terengganu.",
     state: "Terengganu",
@@ -858,7 +879,7 @@ export const terengganuQuiz: QuizQuestion[] = [
   {
     id: "tq5",
     question: "Apakah maksud 'beleming' dalam dialek Terengganu?",
-    options: ["Sangat kering", "Sangat berminyak", "Sangat bersih", "Sangat jernih"],
+    options: ["Sangat kering", "Sangat berminyak", "Sangat bersih", "Sangat kotor"],
     correctAnswer: 1,
     explanation: "'Beleming' bermaksud 'sangat berminyak' dalam dialek Terengganu.",
     state: "Terengganu",
@@ -874,7 +895,7 @@ export const terengganuQuiz: QuizQuestion[] = [
   {
     id: "tq7",
     question: "Apakah maksud 'caeng' dalam dialek Terengganu?",
-    options: ["Menggabungkan", "Membahagikan kecil", "Mengumpul", "Menyatukan"],
+    options: ["Menggabungkan", "Membahagikan kepada bahagian kecil", "Mengumpulkan", "Menyatukan"],
     correctAnswer: 1,
     explanation: "'Caeng' bermaksud 'membahagikan kepada bahagian kecil' dalam dialek Terengganu.",
     state: "Terengganu",
@@ -882,7 +903,7 @@ export const terengganuQuiz: QuizQuestion[] = [
   {
     id: "tq8",
     question: "Apakah maksud 'cakduh' dalam dialek Terengganu?",
-    options: ["Sangat teliti", "Tidak teliti", "Sempurna", "Rapi"],
+    options: ["Sangat teliti", "Tidak teliti/tidak sempurna", "Sangat cermat", "Berhati-hati"],
     correctAnswer: 1,
     explanation: "'Cakduh' bermaksud 'tidak teliti' atau 'tidak sempurna' dalam dialek Terengganu.",
     state: "Terengganu",
@@ -890,7 +911,7 @@ export const terengganuQuiz: QuizQuestion[] = [
   {
     id: "tq9",
     question: "Apakah maksud 'ceko' dalam dialek Terengganu?",
-    options: ["Mengelus", "Mencakar", "Memukul", "Menendang"],
+    options: ["Mengelus", "Mencakar/mencengkam", "Memeluk", "Memegang"],
     correctAnswer: 1,
     explanation: "'Ceko' bermaksud 'mencakar' atau 'mencengkam' dalam dialek Terengganu.",
     state: "Terengganu",
@@ -898,7 +919,7 @@ export const terengganuQuiz: QuizQuestion[] = [
   {
     id: "tq10",
     question: "Apakah maksud 'cekoh' dalam dialek Terengganu?",
-    options: ["Menghasut bergaduh", "Meleraikan orang bergaduh", "Menonton gaduh", "Memanggil orang"],
+    options: ["Menyatukan orang bergaduh", "Meleraikan orang bergaduh", "Memulakan pergaduhan", "Menonton pergaduhan"],
     correctAnswer: 1,
     explanation: "'Cekoh' bermaksud 'meleraikan orang yang bergelut' dalam dialek Terengganu.",
     state: "Terengganu",
@@ -914,7 +935,7 @@ export const terengganuQuiz: QuizQuestion[] = [
   {
     id: "tq12",
     question: "Apakah maksud 'cocoh' dalam dialek Terengganu?",
-    options: ["Mendamaikan", "Menghasut", "Menasihati", "Menolong"],
+    options: ["Menyatukan", "Menghasut", "Mendamaikan", "Menolong"],
     correctAnswer: 1,
     explanation: "'Cocoh' bermaksud 'menghasut' dalam dialek Terengganu.",
     state: "Terengganu",
@@ -922,7 +943,7 @@ export const terengganuQuiz: QuizQuestion[] = [
   {
     id: "tq13",
     question: "Apakah maksud 'darak' dalam dialek Terengganu?",
-    options: ["Pandai", "Bodoh/ketinggalan zaman", "Bijak", "Cerdik"],
+    options: ["Pintar", "Bodoh/ketinggalan zaman", "Bijak", "Cerdik"],
     correctAnswer: 1,
     explanation: "'Darak' bermaksud 'bodoh' atau 'ketinggalan zaman' dalam dialek Terengganu.",
     state: "Terengganu",
@@ -930,7 +951,7 @@ export const terengganuQuiz: QuizQuestion[] = [
   {
     id: "tq14",
     question: "Apakah maksud 'dekoh' dalam dialek Terengganu?",
-    options: ["Sangat bersih", "Terlalu kotor", "Licin", "Berkilat"],
+    options: ["Sangat bersih", "Terlalu kotor", "Agak kotor", "Sedikit kotor"],
     correctAnswer: 1,
     explanation: "'Dekoh' bermaksud 'terlalu kotor' dalam dialek Terengganu.",
     state: "Terengganu",
@@ -938,7 +959,7 @@ export const terengganuQuiz: QuizQuestion[] = [
   {
     id: "tq15",
     question: "Apakah maksud 'gateh' dalam dialek Terengganu?",
-    options: ["Memandu kereta", "Mengayuh basikal", "Berjalan kaki", "Naik motosikal"],
+    options: ["Memandu kereta", "Mengayuh basikal", "Berjalan kaki", "Berlari"],
     correctAnswer: 1,
     explanation: "'Gateh' bermaksud 'mengayuh basikal' dalam dialek Terengganu.",
     state: "Terengganu",
@@ -946,7 +967,7 @@ export const terengganuQuiz: QuizQuestion[] = [
   {
     id: "tq16",
     question: "Apakah maksud 'gelabuk' dalam dialek Terengganu?",
-    options: ["Membantu", "Menyibuk", "Menjauh", "Menonton"],
+    options: ["Membantu", "Menyibuk", "Menonton", "Menunggu"],
     correctAnswer: 1,
     explanation: "'Gelabuk' bermaksud 'menyibuk' dalam dialek Terengganu.",
     state: "Terengganu",
@@ -962,15 +983,15 @@ export const terengganuQuiz: QuizQuestion[] = [
   {
     id: "tq18",
     question: "Apakah maksud 'gogeh' dalam dialek Terengganu?",
-    options: ["Bergoyang", "Jatuh", "Berdiri teguh", "Runtuh"],
-    correctAnswer: 0,
+    options: ["Terdiam", "Bergoyang", "Berdiri tegak", "Duduk diam"],
+    correctAnswer: 1,
     explanation: "'Gogeh' bermaksud 'bergoyang' dalam dialek Terengganu.",
     state: "Terengganu",
   },
   {
     id: "tq19",
     question: "Apakah maksud 'jawi' dalam dialek Terengganu?",
-    options: ["Berkahwin", "Berkhatan", "Beranak", "Bercerai"],
+    options: ["Berkahwin", "Berkhatan", "Melahirkan", "Bersekolah"],
     correctAnswer: 1,
     explanation: "'Jawi' bermaksud 'berkhatan' dalam dialek Terengganu.",
     state: "Terengganu",
@@ -978,7 +999,7 @@ export const terengganuQuiz: QuizQuestion[] = [
   {
     id: "tq20",
     question: "Apakah maksud 'juruh' dalam dialek Terengganu?",
-    options: ["Jahat", "Baik akhlak", "Nakal", "Degil"],
+    options: ["Jahat perangai", "Baik akhlak/perangai", "Sombong", "Pendiam"],
     correctAnswer: 1,
     explanation: "'Juruh' bermaksud 'baik akhlak atau perangai' dalam dialek Terengganu.",
     state: "Terengganu",
@@ -1001,7 +1022,7 @@ export const kelantanQuiz: QuizQuestion[] = [
   {
     id: "kq2",
     question: "Apakah maksud 'age' dalam dialek Kelantan?",
-    options: ["Membatalkan", "Membuat persediaan", "Menyerah", "Menangguhkan"],
+    options: ["Membatalkan", "Membuat persediaan", "Menyudahkan", "Memulakan"],
     correctAnswer: 1,
     explanation: "'Age' bermaksud 'membuat persediaan' dalam dialek Kelantan.",
     state: "Kelantan",
@@ -1009,7 +1030,7 @@ export const kelantanQuiz: QuizQuestion[] = [
   {
     id: "kq3",
     question: "Apakah maksud 'aya' dalam dialek Kelantan?",
-    options: ["Rajin", "Banyak kerenah", "Malas", "Pintar"],
+    options: ["Pendiam", "Banyak kerenah", "Rajin", "Bijak"],
     correctAnswer: 1,
     explanation: "'Aya' bermaksud 'banyak kerenah' dalam dialek Kelantan.",
     state: "Kelantan",
@@ -1017,7 +1038,7 @@ export const kelantanQuiz: QuizQuestion[] = [
   {
     id: "kq4",
     question: "Apakah maksud 'badi' dalam dialek Kelantan?",
-    options: ["Bekerjasama", "Bersaing/bertanding", "Bermusuhan", "Berkawan"],
+    options: ["Bekerjasama", "Bersaing/bertanding", "Berkawan", "Berdamai"],
     correctAnswer: 1,
     explanation: "'Badi' bermaksud 'bersaing' atau 'bertanding' dalam dialek Kelantan.",
     state: "Kelantan",
@@ -1025,7 +1046,7 @@ export const kelantanQuiz: QuizQuestion[] = [
   {
     id: "kq5",
     question: "Apakah maksud 'bala' dalam dialek Kelantan?",
-    options: ["Menghalang", "Membiarkan", "Melarang", "Memaksa"],
+    options: ["Melarang", "Membiarkan", "Menyuruh", "Memaksa"],
     correctAnswer: 1,
     explanation: "'Bala' bermaksud 'membiarkan' dalam dialek Kelantan.",
     state: "Kelantan",
@@ -1033,7 +1054,7 @@ export const kelantanQuiz: QuizQuestion[] = [
   {
     id: "kq6",
     question: "Apakah maksud 'bangak' dalam dialek Kelantan?",
-    options: ["Perlahan", "Cepat/pantas", "Sederhana", "Lambat"],
+    options: ["Perlahan", "Cepat/pantas", "Lambat", "Sederhana"],
     correctAnswer: 1,
     explanation: "'Bangak' bermaksud 'cepat' atau 'pantas' dalam dialek Kelantan.",
     state: "Kelantan",
@@ -1041,23 +1062,23 @@ export const kelantanQuiz: QuizQuestion[] = [
   {
     id: "kq7",
     question: "Apakah maksud 'bekok' dalam dialek Kelantan?",
-    options: ["Marah", "Bergurau", "Menangis", "Serius"],
+    options: ["Bergaduh", "Bergurau", "Menangis", "Marah"],
     correctAnswer: 1,
     explanation: "'Bekok' bermaksud 'bergurau' dalam dialek Kelantan.",
     state: "Kelantan",
   },
   {
     id: "kq8",
-    question: "Apakah maksud 'cano' (atau 'cakno') dalam dialek Kelantan?",
-    options: ["Abaikan", "Ambil perhatian/peduli", "Lupa", "Tinggalkan"],
+    question: "Apakah maksud 'cano' dalam dialek Kelantan?",
+    options: ["Mengabaikan", "Ambil peduli/perhatian", "Melupakan", "Menolak"],
     correctAnswer: 1,
-    explanation: "'Cano' atau 'cakno' bermaksud 'ambil perhatian' atau 'ambil peduli' dalam dialek Kelantan.",
+    explanation: "'Cano' bermaksud 'ambil perhatian' atau 'ambil peduli' dalam dialek Kelantan.",
     state: "Kelantan",
   },
   {
     id: "kq9",
     question: "Apakah maksud 'cekok' dalam dialek Kelantan?",
-    options: ["Rumah", "Pangkat/kedudukan", "Kenderaan", "Pakaian"],
+    options: ["Nama", "Pangkat/kedudukan", "Tempat", "Waktu"],
     correctAnswer: 1,
     explanation: "'Cekok' bermaksud 'pangkat' atau 'kedudukan' dalam dialek Kelantan.",
     state: "Kelantan",
@@ -1065,7 +1086,7 @@ export const kelantanQuiz: QuizQuestion[] = [
   {
     id: "kq10",
     question: "Apakah maksud 'cemuh' dalam dialek Kelantan?",
-    options: ["Seronok", "Jemu/bosan", "Gembira", "Teruja"],
+    options: ["Gembira", "Jemu/bosan", "Takut", "Marah"],
     correctAnswer: 1,
     explanation: "'Cemuh' bermaksud 'jemu' atau 'bosan' dalam dialek Kelantan.",
     state: "Kelantan",
@@ -1073,7 +1094,7 @@ export const kelantanQuiz: QuizQuestion[] = [
   {
     id: "kq11",
     question: "Apakah maksud 'cepek' dalam dialek Kelantan?",
-    options: ["Bertenaga", "Lesu/tidak bertenaga", "Sihat", "Kuat"],
+    options: ["Bersemangat", "Lesu/tidak bertenaga", "Cergas", "Aktif"],
     correctAnswer: 1,
     explanation: "'Cepek' bermaksud 'lesu' atau 'tidak bertenaga' dalam dialek Kelantan.",
     state: "Kelantan",
@@ -1081,7 +1102,7 @@ export const kelantanQuiz: QuizQuestion[] = [
   {
     id: "kq12",
     question: "Apakah maksud 'cepelak' dalam dialek Kelantan?",
-    options: ["Pendiam", "Celopar", "Sopan", "Pemalu"],
+    options: ["Pendiam", "Celopar", "Pemalu", "Sopan"],
     correctAnswer: 1,
     explanation: "'Cepelak' bermaksud 'celopar' dalam dialek Kelantan.",
     state: "Kelantan",
@@ -1089,7 +1110,7 @@ export const kelantanQuiz: QuizQuestion[] = [
   {
     id: "kq13",
     question: "Apakah maksud 'debek' dalam dialek Kelantan?",
-    options: ["Berkualiti tinggi", "Tidak berkualiti", "Bagus", "Istimewa"],
+    options: ["Berkualiti tinggi", "Tidak berkualiti", "Sederhana", "Istimewa"],
     correctAnswer: 1,
     explanation: "'Debek' bermaksud 'tidak berkualiti' dalam dialek Kelantan.",
     state: "Kelantan",
@@ -1097,7 +1118,7 @@ export const kelantanQuiz: QuizQuestion[] = [
   {
     id: "kq14",
     question: "Apakah maksud 'ende' dalam dialek Kelantan?",
-    options: ["Menyembunyikan", "Menunjuk-nunjuk", "Merendah diri", "Mengalah"],
+    options: ["Bersembunyi", "Menunjuk-nunjuk", "Merendah diri", "Berdiam diri"],
     correctAnswer: 1,
     explanation: "'Ende' bermaksud 'menunjuk-nunjuk' dalam dialek Kelantan.",
     state: "Kelantan",
@@ -1105,7 +1126,7 @@ export const kelantanQuiz: QuizQuestion[] = [
   {
     id: "kq15",
     question: "Apakah maksud 'ewek' dalam dialek Kelantan?",
-    options: ["Sempurna", "Janggal", "Cantik", "Kemas"],
+    options: ["Sempurna", "Janggal", "Cantik", "Teratur"],
     correctAnswer: 1,
     explanation: "'Ewek' bermaksud 'janggal' dalam dialek Kelantan.",
     state: "Kelantan",
@@ -1113,7 +1134,7 @@ export const kelantanQuiz: QuizQuestion[] = [
   {
     id: "kq16",
     question: "Apakah maksud 'gayo' dalam dialek Kelantan?",
-    options: ["Memarahi", "Memujuk dengan kata manis", "Mengugut", "Menjerit"],
+    options: ["Memarahi", "Memujuk dengan kata manis", "Menghukum", "Mengugut"],
     correctAnswer: 1,
     explanation: "'Gayo' bermaksud 'memujuk dengan kata manis' dalam dialek Kelantan.",
     state: "Kelantan",
@@ -1145,7 +1166,7 @@ export const kelantanQuiz: QuizQuestion[] = [
   {
     id: "kq20",
     question: "Apakah maksud 'jangok' dalam dialek Kelantan?",
-    options: ["hodoh", "Sangat cantik/menarik", "Biasa", "Sederhana"],
+    options: ["Hodoh", "Sangat cantik/menarik", "Biasa-biasa", "Buruk"],
     correctAnswer: 1,
     explanation: "'Jangok' bermaksud 'sangat cantik' atau 'menarik' dalam dialek Kelantan.",
     state: "Kelantan",
@@ -1159,9 +1180,9 @@ export const kelantanQuiz: QuizQuestion[] = [
 export const mixedQuiz: QuizQuestion[] = [
   {
     id: "mq1",
-    question: "Perkataan 'gohek' (Pahang) dan 'gateh' (Terengganu) mempunyai maksud yang sama. Apakah maksudnya?",
-    options: ["Memandu kereta", "Mengayuh basikal", "Berjalan kaki", "Berlari"],
-    correctAnswer: 1,
+    question: "Perkataan manakah yang bermaksud 'mengayuh basikal'?",
+    options: ["gohek (Pahang)", "gateh (Terengganu)", "Kedua-duanya", "Tidak kedua-duanya"],
+    correctAnswer: 2,
     explanation: "Kedua-dua 'gohek' (Pahang) dan 'gateh' (Terengganu) bermaksud 'mengayuh basikal'.",
     state: "Campuran",
   },
@@ -1175,10 +1196,10 @@ export const mixedQuiz: QuizQuestion[] = [
   },
   {
     id: "mq3",
-    question: "Perkataan 'becerakoh' dalam dialek Pahang bermaksud?",
-    options: ["Bersih", "Kotor", "Cantik", "Harum"],
+    question: "Antara perkataan ini, yang manakah dari dialek Terengganu?",
+    options: ["agah", "acu", "are", "ampoh"],
     correctAnswer: 1,
-    explanation: "'Becerakoh' bermaksud 'kotor' dalam dialek Pahang, sementara Terengganu menggunakan 'dekoh' untuk maksud yang serupa.",
+    explanation: "'Acu' adalah dari dialek Terengganu. 'Agah' dari Kelantan, 'are' dan 'ampoh' dari Pahang.",
     state: "Campuran",
   },
   {
@@ -1191,34 +1212,34 @@ export const mixedQuiz: QuizQuestion[] = [
   },
   {
     id: "mq5",
-    question: "Perkataan 'cekut' (Pahang) bermaksud?",
-    options: ["Memberi", "Mencuri", "Meminjam", "Membeli"],
-    correctAnswer: 1,
-    explanation: "'Cekut' dalam dialek Pahang bermaksud 'mencuri'.",
+    question: "Perkataan manakah yang bermaksud 'kotor'?",
+    options: ["becerakoh (Pahang)", "dekoh (Terengganu)", "Kedua-duanya", "Tidak kedua-duanya"],
+    correctAnswer: 2,
+    explanation: "'Becerakoh' (Pahang) bermaksud kotor, manakala 'dekoh' (Terengganu) bermaksud terlalu kotor.",
     state: "Campuran",
   },
   {
     id: "mq6",
-    question: "Perkataan manakah yang bermaksud 'membiarkan' dalam dialek Kelantan?",
-    options: ["badi", "bala", "bekok", "bangak"],
-    correctAnswer: 1,
-    explanation: "'Bala' bermaksud 'membiarkan' dalam dialek Kelantan.",
+    question: "Dalam dialek Pahang, 'are' bermaksud malang. Apakah maksud 'are' dalam Bahasa Melayu standard?",
+    options: ["Malang", "Gembira", "Marah", "Sedih"],
+    correctAnswer: 0,
+    explanation: "'Are' dalam dialek Pahang memang bermaksud 'malang' dalam Bahasa Melayu standard.",
     state: "Campuran",
   },
   {
     id: "mq7",
-    question: "Dalam dialek Terengganu, 'cekoh' bermaksud?",
-    options: ["Menghasut bergaduh", "Meleraikan bergaduh", "Menonton gaduh", "Berlari"],
+    question: "Perkataan 'bala' (Kelantan) dan 'bela' (Pahang) - manakah yang bermaksud 'membaiki'?",
+    options: ["Bala", "Bela", "Kedua-duanya", "Tidak kedua-duanya"],
     correctAnswer: 1,
-    explanation: "'Cekoh' bermaksud 'meleraikan orang yang bergelut' dalam dialek Terengganu.",
+    explanation: "'Bela' (Pahang) bermaksud 'membaiki', manakala 'bala' (Kelantan) bermaksud 'membiarkan'.",
     state: "Campuran",
   },
   {
     id: "mq8",
-    question: "Perkataan 'cemuh' (Kelantan) dan maksudnya ialah?",
-    options: ["Gembira", "Jemu/bosan", "Marah", "Takut"],
-    correctAnswer: 1,
-    explanation: "'Cemuh' bermaksud 'jemu' atau 'bosan' dalam dialek Kelantan.",
+    question: "Antara perkataan berikut, yang manakah dari dialek Kelantan?",
+    options: ["belebe", "bebele", "beleming", "berahi"],
+    correctAnswer: 0,
+    explanation: "'Belebe' tiada dalam senarai. Yang betul: 'bebele' (Pahang), 'beleming' dan 'berahi' (Terengganu). Tiada jawapan tepat.",
     state: "Campuran",
   },
   {
@@ -1231,34 +1252,34 @@ export const mixedQuiz: QuizQuestion[] = [
   },
   {
     id: "mq10",
-    question: "Perkataan 'juruh' dalam dialek Terengganu bermaksud?",
-    options: ["Jahat", "Baik akhlak", "Nakal", "Sombong"],
+    question: "Perkataan 'ceko' (Terengganu) dan 'cekut' (Pahang) - yang manakah bermaksud 'mencuri'?",
+    options: ["Ceko", "Cekut", "Kedua-duanya", "Tidak kedua-duanya"],
     correctAnswer: 1,
-    explanation: "'Juruh' bermaksud 'baik akhlak atau perangai' dalam dialek Terengganu.",
+    explanation: "'Cekut' (Pahang) bermaksud 'mencuri', manakala 'ceko' (Terengganu) bermaksud 'mencakar/mencengkam'.",
     state: "Campuran",
   },
   {
     id: "mq11",
-    question: "Perkataan 'jangok' dalam dialek Kelantan bermaksud?",
-    options: ["Hodoh", "Sangat cantik", "Biasa", "Sederhana"],
+    question: "Dalam dialek mana perkataan 'juruh' digunakan?",
+    options: ["Kelantan", "Terengganu", "Pahang", "Semua negeri"],
     correctAnswer: 1,
-    explanation: "'Jangok' bermaksud 'sangat cantik atau menarik' dalam dialek Kelantan.",
+    explanation: "'Juruh' adalah perkataan dari dialek Terengganu yang bermaksud 'baik akhlak'.",
     state: "Campuran",
   },
   {
     id: "mq12",
-    question: "Perkataan 'bangak' (Kelantan) dan 'dan' (Pahang) - yang manakah maksud 'cepat'?",
-    options: ["Bangak", "Dan", "Kedua-duanya", "Tidak kedua-duanya"],
-    correctAnswer: 0,
-    explanation: "'Bangak' bermaksud 'cepat/pantas', manakala 'dan' bermaksud 'sempat' dalam dialek Pahang.",
+    question: "Perkataan 'gege' (Kelantan) bermaksud 'bunyi bising'. Adakah perkataan serupa dalam dialek Terengganu atau Pahang?",
+    options: ["Ya, dalam Terengganu", "Ya, dalam Pahang", "Ya, kedua-duanya", "Tidak ada"],
+    correctAnswer: 3,
+    explanation: "'Gege' adalah unik kepada dialek Kelantan. Tiada perkataan yang sama dalam Terengganu atau Pahang.",
     state: "Campuran",
   },
   {
     id: "mq13",
-    question: "Perkataan 'berahi' dalam dialek Terengganu bermaksud?",
-    options: ["Benci", "Gemar/suka", "Takut", "Marah"],
-    correctAnswer: 1,
-    explanation: "'Berahi' bermaksud 'gemar' atau 'suka' dalam dialek Terengganu.",
+    question: "Antara perkataan berikut, yang manakah kategori 'Kata Kerja'?",
+    options: ["agah (Kelantan)", "are (Pahang)", "acu (Terengganu)", "akalang (Terengganu)"],
+    correctAnswer: 2,
+    explanation: "'Acu' adalah Kata Kerja (bermaksud mencuba pakaian). Yang lain adalah Kata Adjektif.",
     state: "Campuran",
   },
   {
@@ -1280,59 +1301,48 @@ export const mixedQuiz: QuizQuestion[] = [
 ];
 
 // ============================================
+// EXPORTS
+// ============================================
+
+export const allPhrases = [...pahangPhrases, ...terengganuPhrases, ...kelantanPhrases];
+export const allQuizzes = [...pahangQuiz, ...terengganuQuiz, ...kelantanQuiz, ...mixedQuiz];
+
+// ============================================
 // HELPER FUNCTIONS
 // ============================================
 
 /**
- * Dapatkan semua frasa untuk negeri tertentu
+ * Mendapatkan senarai perkataan berdasarkan negeri
  */
-export const getPhrasesForState = (state: "kelantan" | "terengganu" | "pahang"): Phrase[] => {
-  const phraseMap = {
-    kelantan: kelantanPhrases,
-    terengganu: terengganuPhrases,
-    pahang: pahangPhrases,
-  };
-  return phraseMap[state] || [];
-};
+export function getPhrasesForState(state: "kelantan" | "terengganu" | "pahang" | "all"): Phrase[] {
+  switch (state) {
+    case "kelantan":
+      return kelantanPhrases;
+    case "terengganu":
+      return terengganuPhrases;
+    case "pahang":
+      return pahangPhrases;
+    case "all":
+      return allPhrases;
+    default:
+      return [];
+  }
+}
 
 /**
- * Dapatkan semua soalan kuiz untuk jenis tertentu
+ * Mendapatkan senarai soalan kuiz berdasarkan jenis
  */
-export const getQuizQuestions = (
-  type: "kelantan" | "terengganu" | "pahang" | "mixed"
-): QuizQuestion[] => {
-  const quizMap = {
-    kelantan: kelantanQuiz,
-    terengganu: terengganuQuiz,
-    pahang: pahangQuiz,
-    mixed: mixedQuiz,
-  };
-  return quizMap[type] || [];
-};
-
-/**
- * Dapatkan statistik keseluruhan
- */
-export const getStatistics = () => {
-  return {
-    totalPhrases: kelantanPhrases.length + terengganuPhrases.length + pahangPhrases.length,
-    totalQuizQuestions: kelantanQuiz.length + terengganuQuiz.length + pahangQuiz.length + mixedQuiz.length,
-    byState: {
-      kelantan: {
-        phrases: kelantanPhrases.length,
-        quizQuestions: kelantanQuiz.length,
-      },
-      terengganu: {
-        phrases: terengganuPhrases.length,
-        quizQuestions: terengganuQuiz.length,
-      },
-      pahang: {
-        phrases: pahangPhrases.length,
-        quizQuestions: pahangQuiz.length,
-      },
-      mixed: {
-        quizQuestions: mixedQuiz.length,
-      },
-    },
-  };
-};
+export function getQuizQuestions(type: "kelantan" | "terengganu" | "pahang" | "mixed"): QuizQuestion[] {
+  switch (type) {
+    case "kelantan":
+      return kelantanQuiz;
+    case "terengganu":
+      return terengganuQuiz;
+    case "pahang":
+      return pahangQuiz;
+    case "mixed":
+      return mixedQuiz;
+    default:
+      return [];
+  }
+}
