@@ -107,14 +107,6 @@ export function ComparisonTool({ onBack }: ComparisonToolProps) {
       {/* Header */}
       <div className="bg-gradient-to-r from-cyan-600 via-blue-600 to-purple-600 text-white p-6">
         <div className="max-w-6xl mx-auto">
-          <Button
-            onClick={onBack}
-            variant="ghost"
-            className="text-white hover:bg-white/20 mb-4"
-          >
-            <ArrowLeft className="w-4 h-4 mr-2" />
-            Kembali
-          </Button>
           <h1 className="text-3xl mb-2">Alat Perbandingan Dialek</h1>
           <p className="text-white/90">
             Bandingkan perkataan dalam dialek Kelantan, Terengganu, Pahang dengan Bahasa Melayu standard
@@ -167,7 +159,7 @@ export function ComparisonTool({ onBack }: ComparisonToolProps) {
               <div className="w-8 h-8 rounded-full bg-gradient-to-br from-red-500 to-red-600" />
             </div>
             <p className="text-sm text-gray-700">
-              Ciri khas: 'Tae', 'Nok', 'Gapo', 'Demo'
+              20 perkataan unik dialek Kelantan
             </p>
           </Card>
           <Card className="p-4 bg-gradient-to-br from-blue-50 to-blue-100 border-blue-200">
@@ -176,7 +168,7 @@ export function ComparisonTool({ onBack }: ComparisonToolProps) {
               <div className="w-8 h-8 rounded-full bg-gradient-to-br from-blue-500 to-blue-600" />
             </div>
             <p className="text-sm text-gray-700">
-              Ciri khas: 'Bakpe', 'Ganung', 'Mung'
+              20 perkataan unik dialek Terengganu
             </p>
           </Card>
           <Card className="p-4 bg-gradient-to-br from-green-50 to-green-100 border-green-200">
@@ -185,7 +177,7 @@ export function ComparisonTool({ onBack }: ComparisonToolProps) {
               <div className="w-8 h-8 rounded-full bg-gradient-to-br from-green-500 to-green-600" />
             </div>
             <p className="text-sm text-gray-700">
-              Ciri khas: 'Hang', 'Doh', 'Mano'
+              20 perkataan unik dialek Pahang
             </p>
           </Card>
         </div>

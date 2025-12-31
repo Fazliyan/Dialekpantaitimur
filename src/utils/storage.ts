@@ -206,6 +206,14 @@ export const resetUserProgress = (): void => {
 };
 
 /**
+ * Reset semua progres dan return default progress
+ */
+export const resetAllProgress = (): UserProgress => {
+  resetUserProgress();
+  return getUserProgress();
+};
+
+/**
  * Export data pengguna untuk backup
  */
 export const exportUserData = (): string => {

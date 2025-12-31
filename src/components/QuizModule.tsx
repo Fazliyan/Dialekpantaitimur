@@ -17,6 +17,7 @@ export function QuizModule({ type, onBack, onComplete }: QuizModuleProps) {
   const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
   const [showResult, setShowResult] = useState(false);
   const [score, setScore] = useState(0);
+  const [finalScore, setFinalScore] = useState(0);
   const [quizComplete, setQuizComplete] = useState(false);
 
   // Dapatkan data kuiz dari fail dialectData.ts
@@ -43,8 +44,12 @@ export function QuizModule({ type, onBack, onComplete }: QuizModuleProps) {
       setSelectedAnswer(null);
       setShowResult(false);
     } else {
+      // Calculate final score explicitly for safety (handles async setState)
+      const isCurrentCorrect = selectedAnswer === quizQuestions[currentQuestion].correctAnswer;
+      const finalScore = isCurrentCorrect ? score + 1 : score;
+      
+      setFinalScore(finalScore);
       setQuizComplete(true);
-      const finalScore = Math.round((score / quizQuestions.length) * 100);
       onComplete(finalScore);
     }
   };
@@ -58,7 +63,7 @@ export function QuizModule({ type, onBack, onComplete }: QuizModuleProps) {
   };
 
   if (quizComplete) {
-    const percentage = Math.round((score / quizQuestions.length) * 100);
+    const percentage = Math.round((finalScore / quizQuestions.length) * 100);
     return (
       <div className="min-h-screen bg-gradient-to-br from-amber-50 via-orange-50 to-yellow-50 flex items-center justify-center p-4">
         <Card className="max-w-2xl w-full p-8 text-center">
@@ -73,7 +78,7 @@ export function QuizModule({ type, onBack, onComplete }: QuizModuleProps) {
               {percentage}%
             </div>
             <p className="text-lg text-gray-700">
-              Skor: {score}/{quizQuestions.length} soalan betul
+              Skor: {finalScore}/{quizQuestions.length} soalan betul
             </p>
           </div>
 
