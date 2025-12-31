@@ -14,7 +14,7 @@ import {
 interface LearningModuleProps {
   state: "kelantan" | "terengganu" | "pahang";
   onBack: () => void;
-  onComplete: (points: number) => void;
+  onComplete?: (points: number) => void;
 }
 
 export function LearningModule({ state: initialState, onBack }: LearningModuleProps) {
