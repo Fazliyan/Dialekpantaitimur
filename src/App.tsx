@@ -10,7 +10,7 @@ import { PadananKata } from "./components/PadananKata";
 import { ProgressTracker } from "./components/ProgressTracker";
 import { SettingsPage } from "./components/SettingsPage";
 import { Toaster } from "./components/ui/sonner";
-import { toast } from "sonner@2.0.3";
+import { toast } from "sonner";
 import { Menu, X } from "lucide-react";
 import {
   getUserProgress,

@@ -1,5 +1,8 @@
-import { Card } from "./ui/card";
+import { ArrowLeft, Trash2, Download, Upload, Database, Info } from "lucide-react";
+import { toast } from "sonner";
+import { exportUserData, importUserData, resetUserProgress } from "../utils/storage";
 import { Button } from "./ui/button";
+import { Card } from "./ui/card";
 import { Badge } from "./ui/badge";
 import {
   AlertDialog,
@@ -12,9 +15,6 @@ import {
   AlertDialogTitle,
   AlertDialogTrigger,
 } from "./ui/alert-dialog";
-import { ArrowLeft, Trash2, Download, Upload, Database, Info } from "lucide-react";
-import { toast } from "sonner@2.0.3";
-import { exportUserData, importUserData, resetUserProgress } from "../utils/storage";
 
 interface SettingsMenuProps {
   onBack: () => void;
